@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Microsoft.Msagl</id>
+    <version>1.0.0</version>
+	<description>A set of tools for graph layout and viewing</description>
+	<authors>Microsoft</authors>
+  </metadata>
+  <files>
+    <file src="GraphLayout\tools\GraphViewerGDI\bin\$configuration$\*" target="lib" />
+	<file src="GraphLayout\**\*.cs" target="src" />
+  </files>
+</package>
